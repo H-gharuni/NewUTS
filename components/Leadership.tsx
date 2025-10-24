@@ -41,14 +41,15 @@ export default function Leadership() {
           {leaders.map((leader, index) => {
             const content = (
               <>
-                {/* Image Container */}
-                <div className="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden bg-gray-200 shadow-lg group-hover:shadow-xl transition-shadow">
+                {/* Image Container - 3D Square */}
+                <div className="relative mb-6 mx-auto w-48 h-48 rounded-lg overflow-hidden bg-gray-200 shadow-xl group-hover:shadow-2xl transition-all transform perspective-1000">
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent pointer-events-none z-10"></div>
                   <Image
                     src={leader.image}
                     alt={leader.name}
                     fill
                     sizes="192px"
-                    className="object-cover"
+                    className="object-cover group-hover:scale-110 transition-transform duration-300"
                   />
                 </div>
 
