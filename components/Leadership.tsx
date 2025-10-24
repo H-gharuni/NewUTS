@@ -3,16 +3,16 @@ import Image from "next/image";
 
 const leaders = [
   {
-    name: "Dr Sharzad Madjlesi",
-    role: "Co-Founder and CEO",
-    image: "/images/ceo.webp", // Also supports .jpg, .png
-    profileLink: "/about#sharzad-madjlesi"
-  },
-  {
     name: "Dr Anand Mandal",
     role: "Co-Founder and Director",
     image: "/images/cofounder.webp", // Also supports .jpg, .png
     profileLink: "/about#anand-mandal"
+  },
+  {
+    name: "Dr Sharzad Madjlesi",
+    role: "Co-Founder and CEO",
+    image: "/images/ceo.webp", // Also supports .jpg, .png
+    profileLink: "/about#sharzad-madjlesi"
   },
   {
     name: "Mr Mehran Gharooni",
