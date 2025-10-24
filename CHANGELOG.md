@@ -2,6 +2,22 @@
 
 All notable changes to the Unique Tech Solution website.
 
+## [1.2.0] - 2025-10-24
+
+### Added
+- **Dual Logo Support**
+  - Navigation bar uses `logo-wbg.svg` (white background version)
+  - Footer uses `logo-dbg.svg` (dark background version)
+  - Optimized visibility and contrast for different backgrounds
+  - Next.js Image component for automatic optimization
+  - Priority loading for navigation logo
+  - Comprehensive logo setup documentation
+
+### Changed
+- Updated `components/Navigation.tsx` to use logo-wbg.svg
+- Updated `components/Footer.tsx` to use logo-dbg.svg
+- Updated `public/LOGO_INSTRUCTIONS.md` with dual logo documentation
+
 ## [1.1.0] - 2025-10-24
 
 ### Added

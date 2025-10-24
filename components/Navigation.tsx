@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Navigation() {
@@ -12,8 +13,16 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link href="/" className="flex items-center">
-              <span className="text-2xl font-bold text-blue-900">
+            <Link href="/" className="flex items-center gap-3">
+              <Image
+                src="/logo-wbg.svg"
+                alt="Unique Tech Solution"
+                width={50}
+                height={50}
+                className="h-12 w-auto"
+                priority
+              />
+              <span className="text-xl font-bold text-blue-900 hidden sm:inline">
                 Unique Tech Solution
               </span>
             </Link>
