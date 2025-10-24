@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Leadership from "@/components/Leadership";
+import Image from "next/image";
 
 export const metadata = {
   title: "About Us - Unique Tech Solution",
@@ -102,10 +103,16 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">Leadership Profiles</h2>
 
             {/* Dr. Sharzad Madjlesi */}
-            <div className="mb-12 pb-12 border-b border-gray-200">
+            <div id="sharzad-madjlesi" className="mb-12 pb-12 border-b border-gray-200 scroll-mt-24">
               <div className="flex items-start gap-6 mb-6">
-                <div className="flex-shrink-0 w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-                  SM
+                <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden bg-gray-200 shadow-lg relative">
+                  <Image
+                    src="/images/ceo.webp"
+                    alt="Dr. Sharzad Madjlesi"
+                    fill
+                    sizes="128px"
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Sharzad Madjlesi</h3>
@@ -171,10 +178,16 @@ export default function AboutPage() {
             </div>
 
             {/* Dr. Anand Mandal */}
-            <div className="mb-12 pb-12 border-b border-gray-200">
+            <div id="anand-mandal" className="mb-12 pb-12 border-b border-gray-200 scroll-mt-24">
               <div className="flex items-start gap-6 mb-6">
-                <div className="flex-shrink-0 w-32 h-32 rounded-full bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center text-white text-4xl font-bold shadow-lg">
-                  AM
+                <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden bg-gray-200 shadow-lg relative">
+                  <Image
+                    src="/images/cofounder.webp"
+                    alt="Dr. Anand Mandal"
+                    fill
+                    sizes="128px"
+                    className="object-cover"
+                  />
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Anand Mandal</h3>

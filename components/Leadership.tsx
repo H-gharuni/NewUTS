@@ -1,18 +1,24 @@
+import Link from "next/link";
+import Image from "next/image";
+
 const leaders = [
   {
     name: "Dr Sharzad Madjlesi",
     role: "Co-Founder and CEO",
-    image: "/images/ceo.jpg"
+    image: "/images/ceo.webp", // Also supports .jpg, .png
+    profileLink: "/about#sharzad-madjlesi"
   },
   {
     name: "Dr Anand Mandal",
     role: "Co-Founder and Director",
-    image: "/images/cofounder.jpg"
+    image: "/images/cofounder.webp", // Also supports .jpg, .png
+    profileLink: "/about#anand-mandal"
   },
   {
     name: "Mr Mehran Gharooni",
     role: "Chief Technology Officer",
-    image: "/images/cto.jpg"
+    image: "/images/cto.webp", // Also supports .jpg, .png
+    profileLink: null // No profile yet
   }
 ];
 
@@ -32,32 +38,56 @@ export default function Leadership() {
 
         {/* Leadership Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 max-w-5xl mx-auto">
-          {leaders.map((leader, index) => (
-            <div key={index} className="text-center group">
-              {/* Image Container */}
-              <div className="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden bg-gray-200 shadow-lg group-hover:shadow-xl transition-shadow">
-                <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-blue-500 to-indigo-600 text-white text-5xl font-bold">
-                  {leader.name.split(' ').map(n => n[0]).join('')}
+          {leaders.map((leader, index) => {
+            const content = (
+              <>
+                {/* Image Container */}
+                <div className="relative mb-6 mx-auto w-48 h-48 rounded-full overflow-hidden bg-gray-200 shadow-lg group-hover:shadow-xl transition-shadow">
+                  <Image
+                    src={leader.image}
+                    alt={leader.name}
+                    fill
+                    sizes="192px"
+                    className="object-cover"
+                  />
                 </div>
-                {/* When you add actual images, uncomment this:
-                <Image
-                  src={leader.image}
-                  alt={leader.name}
-                  fill
-                  className="object-cover"
-                />
-                */}
-              </div>
 
-              {/* Name and Role */}
-              <h3 className="text-xl font-bold text-gray-900 mb-2">
-                {leader.name}
-              </h3>
-              <p className="text-gray-600 font-medium">
-                {leader.role}
-              </p>
-            </div>
-          ))}
+                {/* Name and Role */}
+                <h3 className="text-xl font-bold text-gray-900 mb-2">
+                  {leader.name}
+                </h3>
+                <p className="text-gray-600 font-medium mb-2">
+                  {leader.role}
+                </p>
+                {leader.profileLink && (
+                  <span className="inline-flex items-center text-blue-900 text-sm font-semibold group-hover:underline">
+                    View Full Profile
+                    <svg className="ml-1 w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
+                  </span>
+                )}
+              </>
+            );
+
+            if (leader.profileLink) {
+              return (
+                <Link
+                  key={index}
+                  href={leader.profileLink}
+                  className="text-center group cursor-pointer block hover:scale-105 transition-transform"
+                >
+                  {content}
+                </Link>
+              );
+            }
+
+            return (
+              <div key={index} className="text-center group">
+                {content}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
