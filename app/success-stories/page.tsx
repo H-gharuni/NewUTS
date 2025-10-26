@@ -25,62 +25,8 @@ export default function SuccessStoriesPage() {
           </div>
         </section>
 
-        {/* University of Nottingham Malaysia - Private AI */}
-        <section className="py-16 bg-white">
-          <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="flex items-center gap-3 mb-8">
-              <div className="w-2 h-12 bg-gradient-to-b from-orange-500 to-red-600 rounded-full"></div>
-              <h2 className="text-3xl font-bold text-gray-900">Private AI Solutions</h2>
-            </div>
-
-            <div className="bg-gradient-to-br from-orange-50 to-red-50 rounded-xl p-8 border-2 border-orange-200 mb-12">
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">
-                University of Nottingham Malaysia: Secure AI Infrastructure
-              </h3>
-
-              <div className="grid md:grid-cols-3 gap-6 mb-6">
-                <div className="bg-white rounded-lg p-4 shadow">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">100+</div>
-                  <div className="text-sm text-gray-600">Researchers Using AI Daily</div>
-                </div>
-                <div className="bg-white rounded-lg p-4 shadow">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">6 Weeks</div>
-                  <div className="text-sm text-gray-600">Deployment Timeline</div>
-                </div>
-                <div className="bg-white rounded-lg p-4 shadow">
-                  <div className="text-3xl font-bold text-orange-600 mb-2">100%</div>
-                  <div className="text-sm text-gray-600">PDPA Compliant</div>
-                </div>
-              </div>
-
-              <div className="prose prose-lg max-w-none">
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong>Challenge:</strong> The University of Nottingham Malaysia needed a secure AI solution that would give their researchers access to powerful language models without sending sensitive research data overseas or violating PDPA regulations.
-                </p>
-
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong>Solution:</strong> We deployed a comprehensive Private AI infrastructure on the university's own servers, featuring multiple open-source LLM models (GPT-oss, Qwen3, Llama 4), a user-friendly web portal, complete admin control panel, and Single Sign-On integration with their existing systems.
-                </p>
-
-                <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong>Results:</strong> Within 6 weeks, over 100 researchers gained access to secure AI capabilities. All data remains in Malaysia, full audit trails ensure compliance, and the university has complete control over access and usage. The fixed annual cost model eliminated budget uncertainty.
-                </p>
-
-                <div className="bg-blue-50 border-l-4 border-blue-600 p-6 mt-6">
-                  <p className="text-gray-800 italic text-lg">
-                    "UTS's private AI system gave us the control and security we needed to protect our research data."
-                  </p>
-                  <p className="text-gray-700 font-semibold mt-3">
-                    - Technical Manager, University of Nottingham Malaysia
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* MySmartTeach - Education */}
-        <section className="py-16 bg-gray-50">
+        <section className="py-16 bg-white">
           <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex items-center gap-3 mb-8">
               <div className="w-2 h-12 bg-gradient-to-b from-green-500 to-emerald-600 rounded-full"></div>

@@ -25,6 +25,37 @@ export default function Footer() {
             </p>
           </div>
 
+          {/* Contact Information */}
+          <div>
+            <h4 className="text-lg font-semibold mb-4">Contact</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="tel:+442074310531" className="text-gray-400 hover:text-cyan-400 text-sm transition-colors flex items-center gap-2">
+                  <span>📞</span> +44 74 0531 7234
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/company/unique-tech-solution-uk" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 text-sm transition-colors flex items-center gap-2">
+                  <span>🔗</span> Unique Tech Solution UK
+                </a>
+              </li>
+              <li>
+                <a href="https://wa.me/447917990905" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-cyan-400 text-sm transition-colors flex items-center gap-2">
+                  <span>💬</span> +44 79 1799 0905
+                </a>
+              </li>
+              <li>
+                <a href="mailto:info@uniquetechsolution.uk" className="text-gray-400 hover:text-cyan-400 text-sm transition-colors flex items-center gap-2">
+                  <span>✉️</span> info@uniquetechsolution.uk
+                </a>
+              </li>
+              <li className="text-gray-400 text-sm flex items-start gap-2 mt-4">
+                <span>📍</span>
+                <span>C16, The Ingenuity Centre, Innovation Park, Nottingham, the UK</span>
+              </li>
+            </ul>
+          </div>
+
           {/* Quick Links */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
@@ -44,13 +75,6 @@ export default function Footer() {
                   Contact Us
                 </Link>
               </li>
-            </ul>
-          </div>
-
-          {/* Legal Links */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4">Legal</h4>
-            <ul className="space-y-2">
               <li>
                 <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
                   Privacy Policy
