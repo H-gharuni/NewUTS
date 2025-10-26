@@ -25,7 +25,7 @@ export default function WhyChooseUTS() {
         </svg>
       ),
       title: "Practical Focus",
-      description: "Real-world applications that deliver measurable results—40% productivity gains, reduced costs, enhanced security."
+      description: "Real-world applications that deliver measurable results, 40% productivity gains, reduced costs, enhanced security."
     },
     {
       icon: (
@@ -34,7 +34,7 @@ export default function WhyChooseUTS() {
         </svg>
       ),
       title: "Ethical & Secure",
-      description: "Data protection and compliance at our core—GDPR, PDPA-ready with bank-level security standards."
+      description: "Data protection and compliance at our core, GDPR, PDPA-ready with bank-level security standards."
     },
     {
       icon: (
@@ -43,7 +43,7 @@ export default function WhyChooseUTS() {
         </svg>
       ),
       title: "Flexible Solutions",
-      description: "From startups to institutions, we scale with you—customized solutions for organizations of any size."
+      description: "From startups to institutions, we scale with you, customized solutions for organizations of any size."
     }
   ];
 

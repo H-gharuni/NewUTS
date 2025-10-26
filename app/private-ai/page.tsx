@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const metadata = {
   title: "Private AI Infrastructure | Unique Tech Solution",
-  description: "ChatGPT Power. Bank-Level Security. Fixed Costs. Deploy secure AI on YOUR servers with complete PDPA compliance.",
+  description: "AI Power. Bank-Level Security. Fixed Costs. Deploy secure AI on YOUR servers with complete PDPA compliance.",
 };
 
 export default function PrivateAIPage() {
@@ -20,7 +20,7 @@ export default function PrivateAIPage() {
                 PRIVATE AI ON YOUR INFRASTRUCTURE
               </h1>
               <p className="text-2xl sm:text-3xl text-blue-100 mb-4 font-semibold">
-                ChatGPT Power. Bank-Level Security. Fixed Costs.
+                AI Power. Bank-Level Security. Fixed Costs.
               </p>
               <p className="text-xl text-blue-200 max-w-3xl mx-auto">
                 Your Data Never Leaves Malaysia.

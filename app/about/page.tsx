@@ -31,10 +31,10 @@ export default function AboutPage() {
                         <div className="prose prose-lg max-w-none">
                             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                Unique Tech Solution was established in <strong>September 2024</strong> in the United
+                                Unique Tech Solution was established in the United
                                 Kingdom with a clear mission: to democratize access to transformative AI and technology
                                 solutions. As a strategic holding company, we unite four specialized business units
-                                under one vision—delivering innovation that is accessible, secure, and ethical.
+                                under one vision, delivering innovation that is accessible, secure, and ethical.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Our portfolio spans diverse sectors: from AI-powered educational tools that reduce
@@ -71,7 +71,7 @@ export default function AboutPage() {
                                 <div className="bg-blue-50 p-6 rounded-lg">
                                     <h3 className="text-xl font-bold text-blue-900 mb-3">Security</h3>
                                     <p className="text-gray-700">
-                                        Data protection and compliance at our core—GDPR, PDPA-ready with bank-level
+                                        Data protection and compliance at our core, GDPR, PDPA-ready with bank-level
                                         security standards.
                                     </p>
                                 </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                                 <div className="bg-blue-50 p-6 rounded-lg">
                                     <h3 className="text-xl font-bold text-blue-900 mb-3">Excellence</h3>
                                     <p className="text-gray-700">
-                                        Academic rigor meets practical focus—delivering real-world applications with
+                                        Academic rigor meets practical focus, delivering real-world applications with
                                         measurable results.
                                     </p>
                                 </div>
@@ -140,7 +140,7 @@ export default function AboutPage() {
                                     />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Sharzad Madjlesi, PhD</h3>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Sharzad Madjlesi</h3>
                                     <p className="text-lg text-blue-900 font-semibold mb-2">Chief Executive Officer &
                                         Co-Founder</p>
                                     <div className="flex flex-wrap gap-2">
@@ -213,7 +213,7 @@ export default function AboutPage() {
                                     />
                                 </div>
                                 <div>
-                                    <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Anand Mandal, PhD</h3>
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Anand Mandal</h3>
                                     <p className="text-lg text-blue-900 font-semibold mb-2">Co-Founder and Director</p>
                                     <div className="flex flex-wrap gap-2">
                     <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
@@ -246,7 +246,7 @@ export default function AboutPage() {
                                     Programme Director for the MBA (Distance Learning). Dr. Mandal operates at the
                                     intersection of academia and industry. This dual perspective enables him to identify
                                     emerging opportunities while understanding the practical constraints organizations
-                                    face. 
+                                    face.
                                 </p>
 
                                 <p className="text-gray-700 leading-relaxed mb-4">
@@ -281,10 +281,7 @@ export default function AboutPage() {
                     <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
                       MSc Data Science
                     </span>
-                                        <span
-                                            className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
-                      4.0 CGPA
-                    </span>
+
                                         <span
                                             className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
                       Patent-Pending AI
@@ -298,7 +295,7 @@ export default function AboutPage() {
                                     Mehran Gharooni is the Chief Technology Officer at Unique Tech Solution, responsible
                                     for architecting the AI systems and technical infrastructure that power UTS's
                                     portfolio of innovative solutions. With a Master's in Data Science from the
-                                    University of Malaya (4.0/4.0 CGPA), Mehran brings exceptional expertise in
+                                    University of Malaya (Gold medalist), Mehran brings exceptional expertise in
                                     artificial intelligence, machine learning, and full-stack system development.
                                 </p>
 
@@ -319,7 +316,7 @@ export default function AboutPage() {
                                 </p>
 
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    At UTS, Mehran's mission is clear: build AI that organizations can trust—powerful
+                                    At UTS, Mehran's mission is clear: build AI that organizations can trust, powerful
                                     enough to transform workflows, yet transparent and secure enough to deploy with
                                     confidence.
                                 </p>
