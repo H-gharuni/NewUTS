@@ -18,7 +18,7 @@ const leaders = [
     name: "Mr Mehran Gharooni",
     role: "Chief Technology Officer",
     image: "/images/cto.webp", // Also supports .jpg, .png
-    profileLink: null // No profile yet
+    profileLink: "/about#mehran-gharooni"
   }
 ];
 
