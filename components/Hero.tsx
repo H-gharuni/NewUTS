@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white pt-32 pb-20">
+    <section className="relative bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 text-white pt-32 pb-20 overflow-hidden">
       {/* Background overlay for subtle pattern */}
       <div className="absolute inset-0 bg-black opacity-20"></div>
 
