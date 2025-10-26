@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           {/* Main Headline */}
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Empowering Innovation
             <br />
             <span className="text-blue-300">Through AI & Technology</span>
