@@ -233,7 +233,7 @@ export default function AboutPage() {
 
                             <div className="prose prose-lg max-w-none">
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    Dr. Anand Mandal is the Co-Founder and Director of Unique Tech Solution, bringing a
+                                    Dr. Anand Mandal is the Co-Founder of Unique Tech Solution, bringing a
                                     unique blend of academic rigor and practical financial technology expertise to the
                                     company's strategic direction. With a PhD in Probability Distribution Fitting from
                                     Cranfield University and master's degrees in Management Science and Finance &
