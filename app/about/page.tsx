@@ -31,17 +31,20 @@ export default function AboutPage() {
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                Unique Tech Solution was founded with a singular vision: to create a portfolio of innovative
-                businesses that address real-world challenges through technology and strategic thinking. As a
-                semi-holding company, we provide the framework, resources, and expertise that enable our Strategic
-                Business Units (SBUs) to thrive independently while benefiting from our collective strength.
+                Unique Tech Solution was established in <strong>September 2024</strong> in the United Kingdom with a clear mission: to democratize access to transformative AI and technology solutions. As a strategic holding company, we unite four specialized business units under one vision—delivering innovation that is accessible, secure, and ethical.
+              </p>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                Our portfolio spans diverse sectors: from AI-powered educational tools that reduce teacher workload, to professional website development for small businesses, specialized training programs in AI and financial technology, and enterprise-grade private AI infrastructure that keeps data secure and compliant.
               </p>
 
               <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Our Mission</h2>
               <p className="text-gray-700 leading-relaxed mb-6">
-                We are committed to fostering innovation and excellence across diverse sectors. Our mission is to
-                empower our business units with strategic guidance, operational support, and a shared culture of
-                innovation, enabling them to deliver exceptional value to their customers and stakeholders.
+                To democratize AI and technology solutions, making them accessible, secure, and ethical for organizations of all sizes. We bridge the gap between cutting-edge research and practical implementation, delivering measurable results while prioritizing data protection, regulatory compliance, and genuine impact.
+              </p>
+
+              <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Our Vision</h2>
+              <p className="text-gray-700 leading-relaxed mb-6">
+                We envision a future where transformative technology empowers, not complicates. Where businesses can leverage AI with confidence, knowing their data is secure and their investments deliver real value. Through responsible innovation and practical solutions, we're building that future today.
               </p>
 
               <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Our Core Values</h2>
@@ -49,25 +52,25 @@ export default function AboutPage() {
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h3 className="text-xl font-bold text-blue-900 mb-3">Innovation</h3>
                   <p className="text-gray-700">
-                    We constantly push boundaries and embrace new technologies to stay ahead of the curve.
+                    Patent-pending AI technology and cutting-edge solutions that push the boundaries of what's possible.
+                  </p>
+                </div>
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-bold text-blue-900 mb-3">Security</h3>
+                  <p className="text-gray-700">
+                    Data protection and compliance at our core—GDPR, PDPA-ready with bank-level security standards.
+                  </p>
+                </div>
+                <div className="bg-blue-50 p-6 rounded-lg">
+                  <h3 className="text-xl font-bold text-blue-900 mb-3">Accessibility</h3>
+                  <p className="text-gray-700">
+                    Making advanced technology available to organizations of all sizes, from startups to institutions.
                   </p>
                 </div>
                 <div className="bg-blue-50 p-6 rounded-lg">
                   <h3 className="text-xl font-bold text-blue-900 mb-3">Excellence</h3>
                   <p className="text-gray-700">
-                    We maintain the highest standards in everything we do, from product development to customer service.
-                  </p>
-                </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">Integrity</h3>
-                  <p className="text-gray-700">
-                    We operate with transparency, honesty, and ethical principles in all our business dealings.
-                  </p>
-                </div>
-                <div className="bg-blue-50 p-6 rounded-lg">
-                  <h3 className="text-xl font-bold text-blue-900 mb-3">Collaboration</h3>
-                  <p className="text-gray-700">
-                    We believe in the power of teamwork and synergy across our business units.
+                    Academic rigor meets practical focus—delivering real-world applications with measurable results.
                   </p>
                 </div>
               </div>
@@ -105,7 +108,7 @@ export default function AboutPage() {
             {/* Dr. Sharzad Madjlesi */}
             <div id="sharzad-madjlesi" className="mb-12 pb-12 border-b border-gray-200 scroll-mt-24">
               <div className="flex items-start gap-6 mb-6">
-                <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden bg-gray-200 shadow-lg relative">
+                <div className="flex-shrink-0 w-32 h-32 rounded-lg overflow-hidden bg-gray-200 shadow-lg relative">
                   <Image
                     src="/images/ceo.webp"
                     alt="Dr. Sharzad Madjlesi"
@@ -115,17 +118,17 @@ export default function AboutPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Sharzad Madjlesi</h3>
-                  <p className="text-lg text-blue-900 font-semibold mb-2">Co-Founder and CEO</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Sharzad Madjlesi, PhD</h3>
+                  <p className="text-lg text-blue-900 font-semibold mb-2">Chief Executive Officer & Co-Founder</p>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                      PhD in Business & Management
+                      PhD in Financial Technology
                     </span>
                     <span className="bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm font-medium">
-                      MBA with Distinction
+                      AI Research
                     </span>
                     <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-                      FinTech Specialist
+                      Educational Innovation
                     </span>
                   </div>
                 </div>
@@ -133,54 +136,31 @@ export default function AboutPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Dr. Sharzad Madjlesi leads Unique Tech Solution with a results-driven approach, focusing on
-                  delivering customized digital solutions that empower businesses and enhance their competitive edge.
-                  With a PhD in Business and Management specializing in FinTech, and an MBA with distinction, both
-                  from the University of Nottingham, she brings deep expertise in financial technology, consulting,
-                  and business management.
+                  Dr. Sharzad Madjlesi founded Unique Tech Solution in the UK with a clear conviction: transformative technology should be accessible, secure, and ethical. As CEO, she leads a diverse portfolio of technology businesses united by this principle.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Dr. Madjlesi's research into financial institutions, credit risk, and performance metrics enables
-                  the development of transformative, data-driven solutions tailored to clients' needs. Her
-                  entrepreneurial experience and leadership roles, including over a decade of financial management
-                  and consulting positions, provide a strong foundation for addressing complex business challenges
-                  with cost-effective, practical strategies.
+                  With a background spanning artificial intelligence research, educational innovation, and technology entrepreneurship, Dr. Sharzad brings a multidisciplinary perspective to leadership. Her career has been defined by bridging the gap between cutting-edge research and practical implementation, translating complex AI capabilities into solutions that serve real human needs.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  As a member of the Ingenuity Lab at the University of Nottingham, Dr. Madjlesi is dedicated to
-                  fostering innovation in Financial Technologies and empowering businesses through comprehensive
-                  training programs. Her academic excellence and real-world expertise ensure that every solution
-                  aligns seamlessly with operational goals in today's fast-evolving digital economy.
+                  Her leadership philosophy centers on responsible innovation. Whether addressing challenges in education, business infrastructure, professional development, or enterprise AI, Dr. Sharzad ensures that every UTS solution prioritizes user privacy, regulatory compliance, and measurable impact. She believes technology companies have an obligation not just to innovate, but to innovate responsibly.
                 </p>
 
-                <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Education</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• PhD in Business & Management (FinTech)</li>
-                      <li>• MBA with Distinction</li>
-                      <li>• University of Nottingham</li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Expertise</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• Financial Technology (FinTech)</li>
-                      <li>• Credit Risk & Performance Metrics</li>
-                      <li>• Business Consulting & Strategy</li>
-                      <li>• Digital Transformation</li>
-                    </ul>
-                  </div>
-                </div>
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Dr. Sharzad's expertise encompasses machine learning systems, digital transformation strategy, educational technology, and fintech innovation. She holds a PhD in Financial Technology and has worked extensively in both academic and commercial environments, giving her a unique ability to balance rigorous methodology with market realities.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Beyond growing Unique Tech Solution's business portfolio, Dr. Sharzad is committed to fostering partnerships with academic institutions, maintaining ethical AI standards, and contributing to the broader conversation about technology's role in companies and society.
+                </p>
               </div>
             </div>
 
             {/* Dr. Anand Mandal */}
             <div id="anand-mandal" className="mb-12 pb-12 border-b border-gray-200 scroll-mt-24">
               <div className="flex items-start gap-6 mb-6">
-                <div className="flex-shrink-0 w-32 h-32 rounded-full overflow-hidden bg-gray-200 shadow-lg relative">
+                <div className="flex-shrink-0 w-32 h-32 rounded-lg overflow-hidden bg-gray-200 shadow-lg relative">
                   <Image
                     src="/images/cofounder.webp"
                     alt="Dr. Anand Mandal"
@@ -190,20 +170,17 @@ export default function AboutPage() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Anand Mandal</h3>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-1">Dr. Anand Mandal, PhD</h3>
                   <p className="text-lg text-blue-900 font-semibold mb-2">Co-Founder and Director</p>
                   <div className="flex flex-wrap gap-2">
                     <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
-                      PhD in Probability Distribution
+                      Associate Professor
                     </span>
                     <span className="bg-teal-100 text-teal-800 px-3 py-1 rounded-full text-sm font-medium">
-                      MSc Management Science
+                      Digital Finance Chair
                     </span>
                     <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium">
-                      MSc Finance & Investments
-                    </span>
-                    <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
-                      AI & Blockchain Expert
+                      UCL Blockchain Lab
                     </span>
                   </div>
                 </div>
@@ -211,72 +188,65 @@ export default function AboutPage() {
 
               <div className="prose prose-lg max-w-none">
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Dr. Anand Mandal is a distinguished expert in AI-driven strategic investments, blockchain
-                  consulting, and advanced machine learning. He holds a PhD in Probability Distribution Fitting from
-                  Cranfield University and master's degrees in Management Science and Finance & Investments, blending
-                  academic excellence with practical expertise.
+                  Dr. Anand Mandal is the Co-Founder and Director of Unique Tech Solution, bringing a unique blend of academic rigor and practical financial technology expertise to the company's strategic direction. With a PhD in Probability Distribution Fitting from Cranfield University and master's degrees in Management Science and Finance & Investments, he bridges quantitative analysis with real-world business application.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  As an Associate Professor and Distinguished Chair of Digital Finance at the University of Birmingham,
-                  Dr. Mandal directs the MSc Financial Technology program, where he develops innovative, client-focused
-                  solutions. His collaboration with the Association of Corporate Treasurers has led to the creation of
-                  ESG-focused curriculums, underscoring his dedication to advancing sustainable finance.
+                  At the University of Birmingham's Department of Finance, Dr. Mandal serves as Associate Professor in Finance, Scotcoin Distinguished Chair of Digital Finance, and Programme Director for the MBA (Distance Learning). Dr. Mandal operates at the intersection of academia and industry. This dual perspective enables him to identify emerging opportunities while understanding the practical constraints organizations face. His work developing ESG-focused curriculums with the Association of Corporate Treasurers reflects his commitment to responsible innovation—a principle that deeply influences UTS's approach.
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  Dr. Mandal's expertise includes cryptocurrency markets, blockchain technology, financial strategy,
-                  and risk management. He has provided guidance to organizations like the NHS and the UK government and
-                  secured over £2 million in funding for pioneering AI and healthcare projects. An honorary member of
-                  UCL's Blockchain Lab, he is celebrated for his data-driven approach, making him a trusted leader in
-                  the digital finance industry.
+                  His analytical approach ensures UTS solutions are built on solid mathematical and strategic foundations. Working alongside CEO Dr. Sharzad Madjlesi and CTO Mehran Gharooni, Dr. Mandal provides the strategic oversight and financial expertise that enables UTS to make informed decisions about technology investments and long-term growth. His commitment to sustainable finance and evidence-based innovation aligns perfectly with UTS's mission to deliver technology solutions that are as responsible as they are revolutionary.
                 </p>
-
-                <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Education</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• PhD in Probability Distribution Fitting</li>
-                      <li>• MSc in Management Science</li>
-                      <li>• MSc in Finance & Investments</li>
-                      <li>• Cranfield University</li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Expertise</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• AI-Driven Strategic Investments</li>
-                      <li>• Blockchain Consulting</li>
-                      <li>• Cryptocurrency Markets</li>
-                      <li>• Financial Strategy & Risk Management</li>
-                      <li>• ESG & Sustainable Finance</li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Current Roles</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• Associate Professor, University of Birmingham</li>
-                      <li>• Distinguished Chair of Digital Finance</li>
-                      <li>• Director, MSc Financial Technology Program</li>
-                      <li>• Honorary Member, UCL Blockchain Lab</li>
-                    </ul>
-                  </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h4 className="font-semibold text-gray-900 mb-2">Key Achievements</h4>
-                    <ul className="text-sm text-gray-700 space-y-1">
-                      <li>• Secured £2M+ in AI & Healthcare funding</li>
-                      <li>• Advisor to NHS & UK Government</li>
-                      <li>• ESG Curriculum Development (ACT)</li>
-                      <li>• Blockchain Lab Honorary Member (UCL)</li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
 
-            {/* Placeholder for other leadership profiles */}
-            <div className="text-center text-gray-500 italic">
-              Additional leadership profiles coming soon
+            {/* Mr. Mehran Gharooni */}
+            <div id="mehran-gharooni" className="mb-12 scroll-mt-24">
+              <div className="flex items-start gap-6 mb-6">
+                <div className="flex-shrink-0 w-32 h-32 rounded-lg overflow-hidden bg-gray-200 shadow-lg relative">
+                  <Image
+                    src="/images/cto.webp"
+                    alt="Mr. Mehran Gharooni"
+                    fill
+                    sizes="128px"
+                    className="object-cover"
+                  />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-1">Mr. Mehran Gharooni</h3>
+                  <p className="text-lg text-blue-900 font-semibold mb-2">Chief Technology Officer</p>
+                  <div className="flex flex-wrap gap-2">
+                    <span className="bg-orange-100 text-orange-800 px-3 py-1 rounded-full text-sm font-medium">
+                      MSc Data Science
+                    </span>
+                    <span className="bg-red-100 text-red-800 px-3 py-1 rounded-full text-sm font-medium">
+                      4.0 CGPA
+                    </span>
+                    <span className="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm font-medium">
+                      Patent-Pending AI
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="prose prose-lg max-w-none">
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  Mehran Gharooni is the Chief Technology Officer at Unique Tech Solution, responsible for architecting the AI systems and technical infrastructure that power UTS's portfolio of innovative solutions. With a Master's in Data Science from the University of Malaya (4.0/4.0 CGPA), Mehran brings exceptional expertise in artificial intelligence, machine learning, and full-stack system development.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  As co-inventor of UTS's patent-pending AI consensus technology, Mehran has pioneered novel approaches to building trustworthy, verifiable AI systems. His technical leadership encompasses advanced machine learning, natural language processing, computer vision, cloud architecture, and enterprise system design. From backend APIs to frontend interfaces, Mehran ensures every UTS solution meets the highest standards of performance, security, and user experience.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  His work combines academic rigor with practical engineering excellence, delivering AI systems that are both cutting-edge and reliable. Mehran's research has been published in technical conferences, and his production systems serve hundreds of users across educational and enterprise environments.
+                </p>
+
+                <p className="text-gray-700 leading-relaxed mb-4">
+                  At UTS, Mehran's mission is clear: build AI that organizations can trust—powerful enough to transform workflows, yet transparent and secure enough to deploy with confidence.
+                </p>
+              </div>
             </div>
           </div>
         </section>

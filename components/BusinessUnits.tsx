@@ -2,33 +2,33 @@ import Link from "next/link";
 
 const businessUnits = [
   {
-    name: "mySmartTeach.com",
-    tagline: "Transforming Education Through Innovation and Technology",
-    description: "Comprehensive digital learning ecosystem featuring interactive courses, intelligent tutoring systems, and adaptive learning pathways. Empowering educators and students with cutting-edge AI-powered tools for personalized education experiences.",
+    name: "MySmartTeach",
+    tagline: "AI-Powered Teaching Assistant",
+    description: "Revolutionary AI platform helping UK teachers automate assessment marking and reduce workload by 40%. Patent-pending technology trusted by schools nationwide.",
     website: "https://mysmartteach.com",
     color: "from-green-500 to-emerald-600",
     comingSoon: false
   },
   {
-    name: "Tennerpages.com",
-    tagline: "Your Complete Local Business Discovery Platform",
-    description: "Comprehensive business directory connecting customers with local services across multiple categories. Advanced search capabilities, verified listings, customer reviews, and integrated booking systems make finding and engaging with local businesses effortless.",
+    name: "Tennerpages",
+    tagline: "Professional Websites Made Simple",
+    description: "Launch your business online in just 48 hours. Professional websites at £10/page/month - no technical skills required. Trusted by 50+ businesses worldwide.",
     website: "https://tennerpages.com",
     color: "from-purple-500 to-indigo-600",
     comingSoon: false
   },
   {
-    name: "uniquetechsolution.co.uk",
-    tagline: "Empowering Your Growth Through Specialized Training",
-    description: "Professional training and development programs designed to enhance skills and drive organizational excellence through expert-led courses and certifications.",
-    website: "https://uniquetechsolution.co.uk",
+    name: "UTS Training Academy",
+    tagline: "AI & FinTech Upskilling",
+    description: "Comprehensive training programs in AI, financial technology, blockchain, and data science. Flexible learning designed for busy professionals who want to excel in modern finance and tech.",
+    website: "https://teachaitools.com",
     color: "from-blue-600 to-indigo-700",
     comingSoon: false
   },
   {
-    name: "Private AI Infrastructure",
-    tagline: "ChatGPT Power. Bank-Level Security. Fixed Costs.",
-    description: "Deploy secure AI on YOUR servers with complete control. PDPA-compliant, Malaysia-hosted solution with open-source models, admin control panel, and fixed annual costs. Your data never leaves Malaysia.",
+    name: "Private AI Solutions",
+    tagline: "Enterprise AI On Your Infrastructure",
+    description: "Deploy secure, GDPR/PDPA-compliant AI on YOUR servers. Bank-level security with fixed costs. No data sent overseas. Proven with institutions like University of Nottingham Malaysia.",
     website: "/private-ai",
     color: "from-orange-500 to-red-600",
     comingSoon: false

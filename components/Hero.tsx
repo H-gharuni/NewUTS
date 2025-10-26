@@ -8,15 +8,38 @@ export default function Hero() {
         <div className="text-center">
           {/* Main Headline */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Empowering Innovation,
+            Empowering Innovation
             <br />
-            <span className="text-blue-300">Driving Excellence</span>
+            <span className="text-blue-300">Through AI & Technology</span>
           </h1>
 
-          {/* Tagline/Value Proposition */}
-          <p className="text-xl sm:text-2xl text-blue-100 max-w-3xl mx-auto mb-8 leading-relaxed">
-            A strategic holding company uniting visionary business units to deliver cutting-edge solutions in education, technology, and digital innovation.
+          {/* Subheadline */}
+          <p className="text-xl sm:text-2xl text-blue-100 max-w-4xl mx-auto mb-6 leading-relaxed">
+            A strategic holding company delivering cutting-edge solutions across education, digital transformation, and enterprise AI
           </p>
+
+          {/* Key Stats */}
+          <div className="flex flex-wrap justify-center gap-6 sm:gap-8 mb-8 text-blue-50">
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
+              </svg>
+              <span className="font-semibold">Founded 2024</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+              </svg>
+              <span className="font-semibold">4 Business Units</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path fillRule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clipRule="evenodd"/>
+              </svg>
+              <span className="font-semibold">Serving UK, Malaysia & Global Markets</span>
+            </div>
+          </div>
 
           {/* Call to Action */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -24,13 +47,13 @@ export default function Hero() {
               href="#business-units"
               className="bg-white text-blue-900 px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
             >
-              Explore Our Business Units
+              Explore Our Solutions
             </a>
             <a
               href="/contact"
               className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors"
             >
-              Get In Touch
+              Contact Us
             </a>
           </div>
         </div>
