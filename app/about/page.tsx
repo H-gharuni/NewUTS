@@ -240,16 +240,14 @@ export default function AboutPage() {
                                     Investments, he bridges quantitative analysis with real-world business application.
                                 </p>
 
-                                {/*<p className="text-gray-700 leading-relaxed mb-4">*/}
-                                {/*    At the University of Birmingham's Department of Finance, Dr. Mandal serves as*/}
-                                {/*    Associate Professor in Finance, Scotcoin Distinguished Chair of Digital Finance, and*/}
-                                {/*    Programme Director for the MBA (Distance Learning). Dr. Mandal operates at the*/}
-                                {/*    intersection of academia and industry. This dual perspective enables him to identify*/}
-                                {/*    emerging opportunities while understanding the practical constraints organizations*/}
-                                {/*    face. His work developing ESG-focused curriculums with the Association of Corporate*/}
-                                {/*    Treasurers reflects his commitment to responsible innovation—a principle that deeply*/}
-                                {/*    influences UTS's approach.*/}
-                                {/*</p>*/}
+                                <p className="text-gray-700 leading-relaxed mb-4">
+                                    At the University of Birmingham's Department of Finance, Dr. Mandal serves as
+                                    Associate Professor in Finance, Scotcoin Distinguished Chair of Digital Finance, and
+                                    Programme Director for the MBA (Distance Learning). Dr. Mandal operates at the
+                                    intersection of academia and industry. This dual perspective enables him to identify
+                                    emerging opportunities while understanding the practical constraints organizations
+                                    face. 
+                                </p>
 
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     His analytical approach ensures UTS solutions are built on solid mathematical and
