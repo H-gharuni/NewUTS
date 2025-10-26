@@ -3,15 +3,35 @@ import Link from "next/link";
 const businessUnits = [
   {
     name: "mySmartTeach.com",
-    description: "Revolutionizing education through innovative digital learning platforms and smart teaching solutions.",
+    tagline: "Transforming Education Through Innovation and Technology",
+    description: "Comprehensive digital learning ecosystem featuring interactive courses, intelligent tutoring systems, and adaptive learning pathways. Empowering educators and students with cutting-edge AI-powered tools for personalized education experiences.",
     website: "https://mysmartteach.com",
-    color: "from-green-500 to-emerald-600"
+    color: "from-green-500 to-emerald-600",
+    comingSoon: false
   },
   {
     name: "Tennerpages.com",
-    description: "Connecting communities with comprehensive local business directories and digital marketplace solutions.",
+    tagline: "Your Complete Local Business Discovery Platform",
+    description: "Comprehensive business directory connecting customers with local services across multiple categories. Advanced search capabilities, verified listings, customer reviews, and integrated booking systems make finding and engaging with local businesses effortless.",
     website: "https://tennerpages.com",
-    color: "from-purple-500 to-indigo-600"
+    color: "from-purple-500 to-indigo-600",
+    comingSoon: false
+  },
+  {
+    name: "uniquetechsolution.co.uk",
+    tagline: "Empowering Your Growth Through Specialized Training",
+    description: "Professional training and development programs designed to enhance skills and drive organizational excellence through expert-led courses and certifications.",
+    website: "https://uniquetechsolution.co.uk",
+    color: "from-blue-600 to-indigo-700",
+    comingSoon: false
+  },
+  {
+    name: "Private AI Infrastructure",
+    tagline: "ChatGPT Power. Bank-Level Security. Fixed Costs.",
+    description: "Deploy secure AI on YOUR servers with complete control. PDPA-compliant, Malaysia-hosted solution with open-source models, admin control panel, and fixed annual costs. Your data never leaves Malaysia.",
+    website: "/private-ai",
+    color: "from-orange-500 to-red-600",
+    comingSoon: false
   }
 ];
 
@@ -41,9 +61,16 @@ export default function BusinessUnits() {
 
               <div className="p-8">
                 {/* SBU Name */}
-                <h3 className="text-2xl font-bold text-gray-900 mb-4">
+                <h3 className="text-2xl font-bold text-gray-900 mb-2">
                   {unit.name}
                 </h3>
+
+                {/* Tagline */}
+                {unit.tagline && (
+                  <p className={`text-sm font-semibold bg-gradient-to-r ${unit.color} bg-clip-text text-transparent mb-4`}>
+                    {unit.tagline}
+                  </p>
+                )}
 
                 {/* Description */}
                 <p className="text-gray-600 mb-6 leading-relaxed">
@@ -51,27 +78,46 @@ export default function BusinessUnits() {
                 </p>
 
                 {/* CTA Button */}
-                <a
-                  href={unit.website}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`inline-flex items-center bg-gradient-to-r ${unit.color} text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity`}
-                >
-                  Visit Website
-                  <svg
-                    className="ml-2 w-4 h-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
+                {!unit.comingSoon ? (
+                  <a
+                    href={unit.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`inline-flex items-center bg-gradient-to-r ${unit.color} text-white px-6 py-3 rounded-lg font-semibold hover:opacity-90 transition-opacity`}
                   >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M14 5l7 7m0 0l-7 7m7-7H3"
-                    />
-                  </svg>
-                </a>
+                    Visit Website
+                    <svg
+                      className="ml-2 w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M14 5l7 7m0 0l-7 7m7-7H3"
+                      />
+                    </svg>
+                  </a>
+                ) : (
+                  <span className="inline-flex items-center bg-gray-200 text-gray-600 px-6 py-3 rounded-lg font-semibold cursor-not-allowed">
+                    Coming Soon
+                    <svg
+                      className="ml-2 w-4 h-4"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                  </span>
+                )}
               </div>
             </div>
           ))}
