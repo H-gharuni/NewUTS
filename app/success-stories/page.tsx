@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Link from "next/link";
 
 export const metadata = {
   title: "Success Stories | Unique Tech Solution",
@@ -208,18 +209,18 @@ export default function SuccessStoriesPage() {
               Let's discuss how our solutions can transform your organization
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a
+              <Link
                 href="/contact"
                 className="bg-white text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-blue-50 transition-colors shadow-lg"
               >
                 Contact Us Today
-              </a>
-              <a
+              </Link>
+              <Link
                 href="/#business-units"
                 className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-blue-900 transition-colors"
               >
                 Explore Our Solutions
-              </a>
+              </Link>
             </div>
           </div>
         </section>
