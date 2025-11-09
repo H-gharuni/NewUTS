@@ -129,8 +129,8 @@ export default function CookieConsent() {
                     We Value Your Privacy
                   </h3>
                   <p className="text-gray-600 mb-4">
-                    We use cookies to enhance your browsing experience, analyze site traffic,
-                    and personalize content. By clicking "Accept All", you consent to our use
+                    We use cookies to enhance your browsing experience, analyse site traffic,
+                    and personalise content. By clicking "Accept All", you consent to our use
                     of cookies. You can customise your preferences or reject non-essential cookies.{" "}
                     <Link href="/privacy" className="text-blue-900 underline hover:text-blue-700">
                       Learn more in our Privacy Policy

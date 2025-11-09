@@ -32,7 +32,7 @@ export default function AboutPage() {
                             <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Unique Tech Solution was established in the United
-                                Kingdom with a clear mission: to democratize access to transformative AI and technology
+                                Kingdom with a clear mission: to democratise access to transformative AI and technology
                                 solutions. As a strategic holding company, we unite four specialised business units
                                 under one vision, delivering innovation that is accessible, secure, and ethical.
                             </p>
@@ -45,8 +45,8 @@ export default function AboutPage() {
 
                             <h2 className="text-3xl font-bold text-gray-900 mb-6 mt-12">Our Mission</h2>
                             <p className="text-gray-700 leading-relaxed mb-6">
-                                To democratize AI and technology solutions, making them accessible, secure, and ethical
-                                for organizations of all sizes. We bridge the gap between cutting-edge research and
+                                To democratise AI and technology solutions, making them accessible, secure, and ethical
+                                for organisations of all sizes. We bridge the gap between cutting-edge research and
                                 practical implementation, delivering measurable results while prioritizing data
                                 protection, regulatory compliance, and genuine impact.
                             </p>
@@ -78,7 +78,7 @@ export default function AboutPage() {
                                 <div className="bg-blue-50 p-6 rounded-lg">
                                     <h3 className="text-xl font-bold text-blue-900 mb-3">Accessibility</h3>
                                     <p className="text-gray-700">
-                                        Making advanced technology available to organizations of all sizes, from
+                                        Making advanced technology available to organisations of all sizes, from
                                         startups to institutions.
                                     </p>
                                 </div>
@@ -177,7 +177,7 @@ export default function AboutPage() {
                                 <p className="text-gray-700 leading-relaxed mb-4">
                                     Her leadership philosophy centers on responsible innovation. Whether addressing
                                     challenges in education, business infrastructure, professional development, or
-                                    enterprise AI, Dr. Sharzad ensures that every UTS solution prioritizes user privacy,
+                                    enterprise AI, Dr. Sharzad ensures that every UTS solution prioritises user privacy,
                                     regulatory compliance, and measurable impact. She believes technology companies have
                                     an obligation not just to innovate, but to innovate responsibly.
                                 </p>
@@ -245,7 +245,7 @@ export default function AboutPage() {
                                     Associate Professor in Finance, Scotcoin Distinguished Chair of Digital Finance, and
                                     Programme Director for the MBA (Distance Learning). Dr. Mandal operates at the
                                     intersection of academia and industry. This dual perspective enables him to identify
-                                    emerging opportunities while understanding the practical constraints organizations
+                                    emerging opportunities while understanding the practical constraints organisations
                                     face.
                                 </p>
 
@@ -316,7 +316,7 @@ export default function AboutPage() {
                                 </p>
 
                                 <p className="text-gray-700 leading-relaxed mb-4">
-                                    At UTS, Mehran's mission is clear: build AI that organizations can trust, powerful
+                                    At UTS, Mehran's mission is clear: build AI that organisations can trust, powerful
                                     enough to transform workflows, yet transparent and secure enough to deploy with
                                     confidence.
                                 </p>

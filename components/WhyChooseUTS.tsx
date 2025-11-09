@@ -43,7 +43,7 @@ export default function WhyChooseUTS() {
         </svg>
       ),
       title: "Flexible Solutions",
-      description: "From startups to institutions, we scale with you, customized solutions for organizations of any size."
+      description: "From startups to institutions, we scale with you, customised solutions for organisations of any size."
     }
   ];
 

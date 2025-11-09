@@ -138,7 +138,7 @@ export default function SuccessStoriesPage() {
                 </p>
 
                 <p className="text-gray-700 leading-relaxed mb-4">
-                  <strong>Impact:</strong> Professionals gain cutting-edge skills in emerging technologies, enabling career advancement and organizational transformation. Our curriculum reflects the latest developments in AI and fintech, taught by experts actively working in these fields.
+                  <strong>Impact:</strong> Professionals gain cutting-edge skills in emerging technologies, enabling career advancement and organisational transformation. Our curriculum reflects the latest developments in AI and fintech, taught by experts actively working in these fields.
                 </p>
               </div>
             </div>
