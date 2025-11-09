@@ -131,7 +131,7 @@ export default function CookieConsent() {
                   <p className="text-gray-600 mb-4">
                     We use cookies to enhance your browsing experience, analyze site traffic,
                     and personalize content. By clicking "Accept All", you consent to our use
-                    of cookies. You can customize your preferences or reject non-essential cookies.{" "}
+                    of cookies. You can customise your preferences or reject non-essential cookies.{" "}
                     <Link href="/privacy" className="text-blue-900 underline hover:text-blue-700">
                       Learn more in our Privacy Policy
                     </Link>
@@ -155,7 +155,7 @@ export default function CookieConsent() {
                       onClick={() => setShowSettings(true)}
                       className="border-2 border-gray-300 text-gray-700 px-6 py-3 rounded-lg font-semibold hover:border-gray-400 transition-colors"
                     >
-                      Customize
+                      Customise
                     </button>
                   </div>
                 </div>
@@ -168,7 +168,7 @@ export default function CookieConsent() {
                 Cookie Preferences
               </h3>
               <p className="text-gray-600 mb-6">
-                We use different types of cookies to optimize your experience on our website.
+                We use different types of cookies to optimise your experience on our website.
                 Choose which cookies you want to allow.
               </p>
 

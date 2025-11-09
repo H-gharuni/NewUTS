@@ -152,7 +152,7 @@ export default function SuccessStoriesPage() {
               Ready to Create Your Own Success Story?
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Let's discuss how our solutions can transform your organization
+              Let's discuss how our solutions can transform your organisation
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

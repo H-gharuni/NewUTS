@@ -12,11 +12,11 @@ export default function CompanyIntro() {
         {/* Content */}
         <div className="prose prose-lg max-w-none text-gray-700 space-y-6">
           <p className="text-lg leading-relaxed">
-            Unique Tech Solution was established in September 2024 in the United Kingdom as a strategic holding company with a clear mission: to democratize access to transformative AI and technology solutions. We unite four specialized business units under one vision, delivering innovation that is accessible, secure, and ethical.
+            Unique Tech Solution was established in September 2024 in the United Kingdom as a strategic holding company with a clear mission: to democratize access to transformative AI and technology solutions. We unite four specialised business units under one vision, delivering innovation that is accessible, secure, and ethical.
           </p>
 
           <p className="text-lg leading-relaxed">
-            Our portfolio spans diverse sectors: from AI-powered educational tools that reduce teacher workload, to professional website development for small businesses, specialized training programs in AI and financial technology, and enterprise-grade private AI infrastructure that keeps data secure and compliant.
+            Our portfolio spans diverse sectors: from AI-powered educational tools that reduce teacher workload, to professional website development for small businesses, specialised training programs in AI and financial technology, and enterprise-grade private AI infrastructure that keeps data secure and compliant.
           </p>
 
           <p className="text-lg leading-relaxed">

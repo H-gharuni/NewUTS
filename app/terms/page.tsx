@@ -24,11 +24,11 @@ export default function TermsPage() {
                 Website.
               </p>
 
-              <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Use License</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-4">2. Use Licence</h2>
               <p className="text-gray-700 mb-4">
                 Permission is granted to temporarily access the materials (information or software) on Unique Tech
-                Solution UK's Website for personal, non-commercial viewing only. This is the grant of a license, not a
-                transfer of title, and under this license you may not:
+                Solution UK's Website for personal, non-commercial viewing only. This is the grant of a licence, not a
+                transfer of title, and under this licence you may not:
               </p>
               <ul className="list-disc list-inside text-gray-700 mb-6 space-y-2">
                 <li>Modify or copy the materials</li>

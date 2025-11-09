@@ -49,7 +49,7 @@ export default function PrivacyPage() {
                 <li>Respond to your inquiries and contact requests</li>
                 <li>Send you administrative information, such as updates to our terms and policies</li>
                 <li>Improve our website and services</li>
-                <li>Monitor and analyze usage and trends to improve your experience</li>
+                <li>Monitor and analyse usage and trends to improve your experience
                 <li>Prevent fraudulent transactions and monitor against theft</li>
               </ul>
 
@@ -80,7 +80,7 @@ export default function PrivacyPage() {
 
               <h2 className="text-2xl font-bold text-gray-900 mb-4">6. Cookie Policy</h2>
               <p className="text-gray-700 mb-4">
-                We use cookies and similar tracking technologies to enhance your browsing experience and analyze site
+                We use cookies and similar tracking technologies to enhance your browsing experience and analyse site
                 usage. Cookies are small text files stored on your device that help us provide and improve our services.
               </p>
 
@@ -108,7 +108,7 @@ export default function PrivacyPage() {
                 <ul className="list-disc list-inside text-gray-700 ml-4 space-y-1">
                   <li>Google Analytics (if enabled)</li>
                   <li>Page view statistics</li>
-                  <li>User behavior patterns</li>
+                  <li>User behaviour patterns</li>
                   <li>Traffic sources</li>
                 </ul>
               </div>
@@ -134,7 +134,7 @@ export default function PrivacyPage() {
               <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
                 <li>Accept all cookies</li>
                 <li>Reject all non-essential cookies</li>
-                <li>Customize your cookie preferences</li>
+                <li>Customise your cookie preferences</li>
               </ul>
               <p className="text-gray-700 mb-4">
                 You can also set your browser to refuse all or some browser cookies, or to alert you when websites set

@@ -33,12 +33,12 @@ export default function AboutPage() {
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Unique Tech Solution was established in the United
                                 Kingdom with a clear mission: to democratize access to transformative AI and technology
-                                solutions. As a strategic holding company, we unite four specialized business units
+                                solutions. As a strategic holding company, we unite four specialised business units
                                 under one vision, delivering innovation that is accessible, secure, and ethical.
                             </p>
                             <p className="text-gray-700 leading-relaxed mb-6">
                                 Our portfolio spans diverse sectors: from AI-powered educational tools that reduce
-                                teacher workload, to professional website development for small businesses, specialized
+                                teacher workload, to professional website development for small businesses, specialised
                                 training programs in AI and financial technology, and enterprise-grade private AI
                                 infrastructure that keeps data secure and compliant.
                             </p>
