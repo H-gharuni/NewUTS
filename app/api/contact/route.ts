@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { Resend } from "resend";
-
-const resend = new Resend(process.env.RESEND_API_KEY);
+import nodemailer from "nodemailer";
 
 export async function POST(request: NextRequest) {
   try {
@@ -25,24 +23,34 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Check if Resend API key is configured
-    if (!process.env.RESEND_API_KEY) {
-      console.error("RESEND_API_KEY is not configured");
+    // Check if SMTP credentials are configured
+    if (!process.env.SMTP_HOST || !process.env.SMTP_USER || !process.env.SMTP_PASS) {
+      console.error("SMTP credentials not configured");
       return NextResponse.json(
         { error: "Email service not configured" },
         { status: 500 }
       );
     }
 
-    // Send email using Resend
+    // Send email using Nodemailer with Bluehost SMTP
     try {
       const emailSubject = subject || "New Contact Form Submission";
       const emailTo = process.env.EMAIL_TO || "info@uniquetechsolution.uk";
-      const emailFrom = process.env.EMAIL_FROM || "info@uniquetechsolution.uk";
+
+      // Create transporter using Bluehost SMTP
+      const transporter = nodemailer.createTransport({
+        host: process.env.SMTP_HOST,
+        port: parseInt(process.env.SMTP_PORT || "465"),
+        secure: true, // Use SSL
+        auth: {
+          user: process.env.SMTP_USER,
+          pass: process.env.SMTP_PASS,
+        },
+      });
 
       // Send notification email to company
-      await resend.emails.send({
-        from: emailFrom,
+      await transporter.sendMail({
+        from: `"Unique Tech Solution" <${process.env.SMTP_USER}>`,
         to: emailTo,
         replyTo: email,
         subject: `${emailSubject} - From ${name}`,
@@ -72,8 +80,8 @@ export async function POST(request: NextRequest) {
       });
 
       // Send confirmation email to user
-      await resend.emails.send({
-        from: emailFrom,
+      await transporter.sendMail({
+        from: `"Unique Tech Solution" <${process.env.SMTP_USER}>`,
         to: email,
         subject: "Thank you for contacting Unique Tech Solution",
         html: `
