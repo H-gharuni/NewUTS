@@ -49,7 +49,7 @@ export default function PrivacyPage() {
                 <li>Respond to your inquiries and contact requests</li>
                 <li>Send you administrative information, such as updates to our terms and policies</li>
                 <li>Improve our website and services</li>
-                <li>Monitor and analyse usage and trends to improve your experience
+                <li>Monitor and analyse usage and trends to improve your experience</li>
                 <li>Prevent fraudulent transactions and monitor against theft</li>
               </ul>
 
