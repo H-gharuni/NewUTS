@@ -40,6 +40,7 @@ export async function POST(request: NextRequest) {
       const emailTo = process.env.EMAIL_TO || "info@uniquetechsolution.uk";
       const emailFrom = process.env.EMAIL_FROM || "info@uniquetechsolution.uk";
 
+      // Send notification email to company
       await resend.emails.send({
         from: emailFrom,
         to: emailTo,
@@ -65,6 +66,45 @@ export async function POST(request: NextRequest) {
             <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 12px;">
               <p>This email was sent from the contact form on uniquetechsolution.uk</p>
               <p>Submitted on: ${new Date().toLocaleString()}</p>
+            </div>
+          </div>
+        `,
+      });
+
+      // Send confirmation email to user
+      await resend.emails.send({
+        from: emailFrom,
+        to: email,
+        subject: "Thank you for contacting Unique Tech Solution",
+        html: `
+          <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
+            <h2 style="color: #1e3a8a; border-bottom: 2px solid #1e3a8a; padding-bottom: 10px;">
+              Thank You for Contacting Us
+            </h2>
+
+            <p style="margin: 20px 0; font-size: 16px;">Dear ${name},</p>
+
+            <p style="margin: 20px 0; line-height: 1.6;">
+              Thank you for reaching out to Unique Tech Solution. We have received your message and our team will review it shortly.
+            </p>
+
+            <p style="margin: 20px 0; line-height: 1.6;">
+              We typically respond within 24-48 hours during business days. If your enquiry is urgent, please feel free to call us.
+            </p>
+
+            <div style="background-color: #f3f4f6; padding: 15px; border-radius: 5px; margin: 20px 0;">
+              <p style="margin: 0; font-weight: bold; margin-bottom: 10px;">Your Message:</p>
+              <p style="margin: 10px 0; white-space: pre-wrap; color: #4b5563;">${message}</p>
+            </div>
+
+            <p style="margin: 20px 0; line-height: 1.6;">
+              Best regards,<br>
+              <strong>The Unique Tech Solution Team</strong>
+            </p>
+
+            <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #e5e7eb; color: #6b7280; font-size: 12px;">
+              <p>This is an automated confirmation email from Unique Tech Solution.</p>
+              <p>Visit our website: <a href="https://uniquetechsolution.uk" style="color: #1e3a8a;">uniquetechsolution.uk</a></p>
             </div>
           </div>
         `,

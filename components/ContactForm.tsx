@@ -14,10 +14,14 @@ export default function ContactForm({ variant = "simple" }: ContactFormProps) {
     message: ""
   });
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [submittedName, setSubmittedName] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("loading");
+
+    // Store the name before clearing the form
+    const userName = formData.name;
 
     try {
       const response = await fetch("/api/contact", {
@@ -30,8 +34,12 @@ export default function ContactForm({ variant = "simple" }: ContactFormProps) {
 
       if (response.ok) {
         setStatus("success");
+        setSubmittedName(userName);
         setFormData({ name: "", email: "", subject: "", message: "" });
-        setTimeout(() => setStatus("idle"), 5000);
+        setTimeout(() => {
+          setStatus("idle");
+          setSubmittedName("");
+        }, 5000);
       } else {
         setStatus("error");
         setTimeout(() => setStatus("idle"), 5000);
@@ -132,7 +140,7 @@ export default function ContactForm({ variant = "simple" }: ContactFormProps) {
       {/* Status Messages */}
       {status === "success" && (
         <div className="bg-green-50 border border-green-200 text-green-800 px-4 py-3 rounded-lg">
-          Thank you for your message! We'll get back to you soon.
+          Thank you{submittedName ? `, ${submittedName}` : ""}! We've received your message and will get back to you soon.
         </div>
       )}
 
